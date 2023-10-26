@@ -1,0 +1,42 @@
+{
+    "name": "template-axum-solidjs-spa",
+    "version": "0.1.0",
+    "repository": "https://github.com/robertwayne/template-axum-solidjs-spa",
+    "author": "Rob Wagner <rob@sombia.com>",
+    "license": "",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview",
+        "fmt": "prettier --write --plugin-search-dir=. \"**/*.{ts,html,css,cjs,json,tsx}\"",
+        "lint": "eslint \"src/**/*.{ts,tsx}\"",
+        "lint:fix": "eslint --fix --fix-type problem,suggestion \"**/*.{ts,tsx}\"",
+        "tsc": "tsc --noEmit",
+        "tsc:watch": "tsc --noEmit --watch",
+        "test": "vitest run --no-watch",
+        "test:watch": "vitest"
+    },
+    "dependencies": {
+        "@solidjs/router": "^0.8.3",
+        "@typescript-eslint/eslint-plugin": "^6.9.0",
+        "@typescript-eslint/parser": "^6.9.0",
+        "autoprefixer": "^10.4.16",
+        "dotenv": "^16.3.1",
+        "eslint": "^8.52.0",
+        "eslint-config-turbo": "^1.10.16",
+        "happy-dom": "^12.9.1",
+        "postcss": "^8.4.31",
+        "postcss-load-config": "^4.0.1",
+        "prettier": "^3.0.3",
+        "prettier-plugin-tailwindcss": "^0.5.6",
+        "solid-js": "^1.8.3",
+        "tailwindcss": "^3.3.4",
+        "terser": "^5.22.0",
+        "typescript": "^5.2.2",
+        "vite": "4.5.0",
+        "vite-plugin-solid": "^2.7.2",
+        "vitest": "^0.34.6"
+    }
+}
